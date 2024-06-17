@@ -1,0 +1,9 @@
+{
+    "nframes": 1,
+    "natoms": -1,
+    "pos_type": "cart",
+    "AtomicData_options": {
+        "r_max": 9.0,
+        "pbc": true
+    }
+}
