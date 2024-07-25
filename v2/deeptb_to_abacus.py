@@ -180,7 +180,6 @@ for i in range(len(elements)):
 
 positions = numpy.asarray(positions).astype(float).reshape(-1,3)
 positions_extend = numpy.concatenate((atomic_index.reshape(-1,1),atomic_numbers.reshape(-1,1),positions),axis=1)
-numpy.savetxt('positions_extend.dat',positions_extend)
 
 # create output dictionary
 
